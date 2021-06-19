@@ -13,7 +13,7 @@ public class Main {
 
   private static int findMaxProfit(List<Integer> numbers) {
     Pair<Integer, Integer> minNumb = Pair.of(0, numbers.get(0));
-    Pair<Integer, Integer> maxNumb = Pair.of(0, numbers.get(0));
+    Pair<Integer, Integer> maxNumb = minNumb;
 
     TreeSet<Integer> profits = new TreeSet<>();
     for (int i = 0; i < numbers.size() - 1; i++) {
@@ -30,8 +30,7 @@ public class Main {
       }
     }
 
-    int result = 0;
-    return profits.isEmpty() ? result : profits.last();
+    return profits.isEmpty() ? 0 : profits.last();
   }
 
   public static void main(String[] args) {
