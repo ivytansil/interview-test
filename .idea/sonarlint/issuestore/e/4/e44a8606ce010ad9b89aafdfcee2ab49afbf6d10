@@ -1,0 +1,12 @@
+
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(Öçí©üÿÿÿÿ8¡ç¢–¢/
+n
+java:S2095+"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Äòºùùÿÿÿÿ8ï—ü–¢/
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(üÒ©Œýÿÿÿÿ8éÖë”¢/
+7
+java:S1220""Move this file to a named package.8éÖë”¢/
+o
+java:S2095*"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(„þ‰Ÿÿÿÿÿÿ8ï—ü–¢/
+j
+java:S2095)"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(†š­î8ï—ü–¢/
